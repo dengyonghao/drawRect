@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		659FA9AD1B8DC7560039D209 /* UIView+DrawCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 659FA9AC1B8DC7560039D209 /* UIView+DrawCategory.m */; };
 		65DC4AF61B8D6EC400D438B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DC4AF51B8D6EC400D438B4 /* main.m */; };
 		65DC4AF91B8D6EC400D438B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DC4AF81B8D6EC400D438B4 /* AppDelegate.m */; };
 		65DC4AFC1B8D6EC400D438B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DC4AFB1B8D6EC400D438B4 /* ViewController.m */; };
-		65DC4AFF1B8D6EC400D438B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DC4AFD1B8D6EC400D438B4 /* Main.storyboard */; };
 		65DC4B011B8D6EC400D438B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DC4B001B8D6EC400D438B4 /* Images.xcassets */; };
-		65DC4B041B8D6EC400D438B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65DC4B021B8D6EC400D438B4 /* LaunchScreen.xib */; };
 		65DC4B101B8D6EC500D438B4 /* drawRectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DC4B0F1B8D6EC500D438B4 /* drawRectTests.m */; };
+		65DC4B1B1B8D97AA00D438B4 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DC4B1A1B8D97AA00D438B4 /* DrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		659FA9AB1B8DC7560039D209 /* UIView+DrawCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DrawCategory.h"; sourceTree = "<group>"; };
+		659FA9AC1B8DC7560039D209 /* UIView+DrawCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DrawCategory.m"; sourceTree = "<group>"; };
 		65DC4AF01B8D6EC400D438B4 /* drawRect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drawRect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DC4AF41B8D6EC400D438B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65DC4AF51B8D6EC400D438B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,12 +36,12 @@
 		65DC4AF81B8D6EC400D438B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		65DC4AFA1B8D6EC400D438B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		65DC4AFB1B8D6EC400D438B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		65DC4AFE1B8D6EC400D438B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65DC4B001B8D6EC400D438B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		65DC4B031B8D6EC400D438B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		65DC4B091B8D6EC400D438B4 /* drawRectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawRectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DC4B0E1B8D6EC500D438B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65DC4B0F1B8D6EC500D438B4 /* drawRectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drawRectTests.m; sourceTree = "<group>"; };
+		65DC4B191B8D97AA00D438B4 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		65DC4B1A1B8D97AA00D438B4 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +87,12 @@
 				65DC4AF81B8D6EC400D438B4 /* AppDelegate.m */,
 				65DC4AFA1B8D6EC400D438B4 /* ViewController.h */,
 				65DC4AFB1B8D6EC400D438B4 /* ViewController.m */,
-				65DC4AFD1B8D6EC400D438B4 /* Main.storyboard */,
+				65DC4B191B8D97AA00D438B4 /* DrawView.h */,
+				65DC4B1A1B8D97AA00D438B4 /* DrawView.m */,
 				65DC4B001B8D6EC400D438B4 /* Images.xcassets */,
-				65DC4B021B8D6EC400D438B4 /* LaunchScreen.xib */,
 				65DC4AF31B8D6EC400D438B4 /* Supporting Files */,
+				659FA9AB1B8DC7560039D209 /* UIView+DrawCategory.h */,
+				659FA9AC1B8DC7560039D209 /* UIView+DrawCategory.m */,
 			);
 			path = drawRect;
 			sourceTree = "<group>";
@@ -199,8 +203,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65DC4AFF1B8D6EC400D438B4 /* Main.storyboard in Resources */,
-				65DC4B041B8D6EC400D438B4 /* LaunchScreen.xib in Resources */,
 				65DC4B011B8D6EC400D438B4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +223,8 @@
 			files = (
 				65DC4AFC1B8D6EC400D438B4 /* ViewController.m in Sources */,
 				65DC4AF91B8D6EC400D438B4 /* AppDelegate.m in Sources */,
+				659FA9AD1B8DC7560039D209 /* UIView+DrawCategory.m in Sources */,
+				65DC4B1B1B8D97AA00D438B4 /* DrawView.m in Sources */,
 				65DC4AF61B8D6EC400D438B4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +246,6 @@
 			targetProxy = 65DC4B0A1B8D6EC400D438B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		65DC4AFD1B8D6EC400D438B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65DC4AFE1B8D6EC400D438B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		65DC4B021B8D6EC400D438B4 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65DC4B031B8D6EC400D438B4 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		65DC4B111B8D6EC500D438B4 /* Debug */ = {
@@ -348,6 +333,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = drawRect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = drawRect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +403,7 @@
 				65DC4B151B8D6EC500D438B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65DC4B161B8D6EC500D438B4 /* Build configuration list for PBXNativeTarget "drawRectTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +412,7 @@
 				65DC4B181B8D6EC500D438B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
